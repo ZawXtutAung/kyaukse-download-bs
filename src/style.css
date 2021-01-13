@@ -1,7 +1,15 @@
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
+
+
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.479)) ,
+  url(/src/bgbg.jpg)  
+}
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.479)) ,
-    url(bgbg.jpg);
-    height: 100vh;
+    url(/src/bgbg.jpg);
+    height: 60vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
@@ -109,4 +117,31 @@ font-weight: bold;
         transform: translate(0)rotate(0deg)scale(1);
         opacity: 1;
     }
+}
+
+/* @media screen and (min-width: 25em){
+ .text-area {font-size: calc( 16px + (60 - 0) * (100vw - 400px) / (800 - 400) );}
+} */
+@media (min-width: 25em) {  
+ .text-area {font-size:1.5rem;} /*1rem = 16px*/
+ .scrollView{
+     display: inline-block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+ }
+}
+
+@media screen and (min-width: 25em){
+ .text-area{font-size:2rem;}
+  .scrollView{
+     display: inline-block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+ }
+}
+
+@media screen and (min-width: 50em){
+.text-area{font-size:3rem; }
 }
