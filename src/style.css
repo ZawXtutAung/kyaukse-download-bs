@@ -3,13 +3,12 @@
 
 
 body{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.479)) ,
-  url(/src/bgbg.jpg)  
+  background: linear-gradient(-45deg,#09d2f5,#d0aada,#be26c4);
 }
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.479)) ,
     url(/src/bgbg.jpg);
-    height: 60vh;
+    height: 50vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
@@ -49,6 +48,20 @@ font-family: big john;
 .banner-btn a.playstore{
     background: #09d2f5;
     color:floralwhite;
+}
+.container_scro{
+   
+    display: flex;
+    margin-bottom: 35px;
+     overflow-x: auto;
+}
+.container_scro::-webkit-scrollbar{
+    width: 0;
+}
+.container_scro.card{
+    text-align: center;
+   display: flex; 
+    background-color: #09d2f5;
 }
 .footer {
   position: fixed;
