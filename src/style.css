@@ -59,6 +59,7 @@ font-family: big john;
     width: 0;
 }
 .container_scro.card{
+    border-radius: 15px;
     min-width: 200;
     height: 200px;
     width: 200px;
