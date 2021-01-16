@@ -8,16 +8,16 @@ body{
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.479)) ,
     url(/src/bgbg.jpg);
-    height: 50vh;
+    height: 45vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
 }
 .banner-text{
     position: absolute;
-    top: 50%; 
-      left:50%;
-     transform: translate(-50%,-50%);
+    top: 30%; 
+    left:50%;
+     transform: translate(-50%,-40%);
      text-align: center;
 }
 .navbar-brand{
@@ -138,13 +138,32 @@ font-weight: bold;
 }
 
     @media  (min-width: 320px) and (max-width:360px)
-    {.text-area {font-size:18px} }
+    {.text-area {font-size:18px} 
+    header{
+        height: 25vh;
+    }
+    .banner-text{
+        top: 20%; 
+        left:40%;
+    }
+}
 
     @media (min-width:375px) and (max-width: 425.98px) {
-           .text-area {font-size:28px}
+           .text-area {font-size:22px}
+           header{
+            height: 25vh;
+        }
+        .banner-text{
+            top: 20%; 
+            left:42%;
+        }
         }
     @media (min-width: 768px) and (max-width: 991.98px) 
-    {  .text-area {font-size:40px}}
+    {  .text-area {font-size:40px}
+    header{
+        height: 35vh;
+    }
+    }
     @media (min-width:1024px)and(max-width:1440px){
      .text-area {font-size:45px}}
      @media screen and(max-width:2560px){
